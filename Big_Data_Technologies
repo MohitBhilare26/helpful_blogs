@@ -1,0 +1,26 @@
+Will Spark replace Hadoop?
+
+
+
+NOOOOOOOOOOOO.
+Actually speaking we are not supposed to compare Spark and Hadoop because,
+Hadoop is a framework to solve big data problem, Hadoop has 3 components 
+1. HDFS - for storage
+2. MapReduce - for processing/Computation
+3. YARN - for Resource management
+All these together is Hadoop
+
+whereas, Spark is a general purpose, in-memory, compute engine(Spark 
+is only for computation).
+Spark alone cant stand by to solve big data problem, it needs storage from where it can get data, it needs resource manager to manage its resources.
+
+So, Spark is an alternative to MapReduce but not an alternative to Hadoop.
+We can compare/replace MapReduce with Spark but, we can never compare Spark with Hadoop.
+
+If we replace MapReduce with Spark in Hadoop architecture like
+HDFS(for storage) + Spark(for computation) + YARN(resource manager), this is called Spark on top of Hadoop.
+
+Other few storage and resource manager we can use with Spark is shown below in diagram
+Thank you Sumit Mittal sir for clear explanation. 
+TrendyTech
+#dataengineer #spark #hadoop 
